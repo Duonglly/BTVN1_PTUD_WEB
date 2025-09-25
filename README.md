@@ -16,4 +16,6 @@
 ## Thêm tham chiếu đến DLL: <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/c497fd17-0c91-4a40-84f3-662ba37f0482" />
 ##  <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/dc1a9e8c-90db-4dfd-a550-267490081b70" />
 ## Web App (WebUse) với ASP.NET Web Forms:<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/aec1242b-0a8b-4458-8395-462e4a55a69d" />
+## Tạo file Index.html:<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/2b3131f4-684e-4355-a8fa-7b4f98a08d00" />
 
+## Tạo file api.aspx:<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/9e24f939-7fce-4698-8923-bd9a160103b8" />
