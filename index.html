@@ -1,0 +1,142 @@
+﻿<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>✨ Giải phương trình bậc 2 ✨</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background: linear-gradient(135deg, #6a11cb, #2575fc);
+            color: #fff;
+            overflow: hidden;
+        }
+
+        .container {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 30px 40px;
+            border-radius: 20px;
+            box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3);
+            text-align: center;
+            width: 350px;
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            animation: fadeIn 1.2s ease;
+        }
+
+        h1 {
+            margin-bottom: 25px;
+            font-size: 28px;
+            background: linear-gradient(90deg, #ff9a9e, #fad0c4);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            color: transparent;
+        }
+
+
+        input {
+            width: 85%;
+            padding: 10px;
+            margin: 8px 0;
+            border: none;
+            border-radius: 10px;
+            outline: none;
+            font-size: 16px;
+            text-align: center;
+        }
+
+        button {
+            width: 90%;
+            padding: 12px;
+            margin-top: 15px;
+            background: linear-gradient(90deg, #ff9966, #ff5e62);
+            border: none;
+            border-radius: 10px;
+            font-size: 18px;
+            font-weight: bold;
+            color: #fff;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(255, 94, 98, 0.4);
+        }
+
+            button:hover {
+                transform: translateY(-2px);
+                box-shadow: 0 8px 25px rgba(255, 94, 98, 0.6);
+            }
+
+        #result {
+            margin-top: 20px;
+            font-size: 18px;
+            font-weight: bold;
+            color: #fff;
+            text-shadow: 0 0 5px rgba(0,0,0,0.3);
+            min-height: 24px;
+        }
+
+        footer {
+            position: fixed;
+            bottom: 10px;
+            right: 15px;
+            font-size: 14px;
+            color: rgba(255, 255, 255, 0.8);
+            font-style: italic;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(-20px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>✨ Giải phương trình bậc 2 ✨</h1>
+
+        <input type="number" id="a" placeholder="Nhập hệ số a"><br>
+        <input type="number" id="b" placeholder="Nhập hệ số b"><br>
+        <input type="number" id="c" placeholder="Nhập hệ số c"><br>
+
+        <button onclick="solve()">🔍 Giải ngay</button>
+
+        <p id="result"></p>
+    </div>
+
+    <footer>By: Duong Thi Ly</footer>
+
+    <script>
+        function solve() {
+            var a = document.getElementById('a').value;
+            var b = document.getElementById('b').value;
+            var c = document.getElementById('c').value;
+
+            if (a === "" || b === "" || c === "") {
+                document.getElementById("result").innerText = "⚠️ Vui lòng nhập đủ a, b, c.";
+                return;
+            }
+
+            fetch(`/api.aspx?a=${a}&b=${b}&c=${c}`)
+                .then(res => res.json())
+                .then(data => {
+                    document.getElementById("result").innerText = data.ketqua;
+                })
+                .catch(err => {
+                    document.getElementById("result").innerText = "❌ Lỗi gọi API: " + err;
+                });
+        }
+    </script>
+
+</body>
+</html>
