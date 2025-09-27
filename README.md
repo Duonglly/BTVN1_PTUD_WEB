@@ -67,7 +67,7 @@
 - trong gọi lại các hàm xử lý từ PTB2_Library.
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/9e24f939-7fce-4698-8923-bd9a160103b8" />
 ## Hình ảnh kiểm ngiệm 
-### Vô Nghiệm
+### Vô Nghiệm:
 <img width="965" height="1012" alt="image" src="https://github.com/user-attachments/assets/46ec096f-6fc7-4c98-9bb7-dd61ae242670" />
 ### 2 nghiệm
 <img width="961" height="1009" alt="image" src="https://github.com/user-attachments/assets/809c6a17-3303-4e2f-a71c-9fae63530b8d" />
