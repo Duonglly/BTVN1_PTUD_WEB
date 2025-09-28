@@ -1,0 +1,6 @@
+D:\HOCTAP\LAP_TRINH_WEB\PTB2_Solution\PTB2_WindowsForm\obj\Debug\PTB2_WindowsForm.csproj.AssemblyReference.cache
+D:\HOCTAP\LAP_TRINH_WEB\PTB2_Solution\PTB2_WindowsForm\obj\Debug\PTB2_WindowsForm.Form1.resources
+D:\HOCTAP\LAP_TRINH_WEB\PTB2_Solution\PTB2_WindowsForm\obj\Debug\PTB2_WindowsForm.Properties.Resources.resources
+D:\HOCTAP\LAP_TRINH_WEB\PTB2_Solution\PTB2_WindowsForm\obj\Debug\PTB2_WindowsForm.csproj.GenerateResource.cache
+D:\HOCTAP\LAP_TRINH_WEB\PTB2_Solution\PTB2_WindowsForm\obj\Debug\PTB2_WindowsForm.csproj.CoreCompileInputs.cache
+D:\HOCTAP\LAP_TRINH_WEB\PTB2_Solution\PTB2_WindowsForm\obj\Debug\GiaiPTB2.Form1.resources

@@ -1,0 +1,6 @@
+D:\HOCTAP\LAP_TRINH_WEB\PTB2_Solution\PTB2_Library\bin\Debug\PTB2_Library.dll
+D:\HOCTAP\LAP_TRINH_WEB\PTB2_Solution\PTB2_Library\bin\Debug\PTB2_Library.pdb
+D:\HOCTAP\LAP_TRINH_WEB\PTB2_Solution\PTB2_Library\obj\Debug\PTB2_Library.csproj.AssemblyReference.cache
+D:\HOCTAP\LAP_TRINH_WEB\PTB2_Solution\PTB2_Library\obj\Debug\PTB2_Library.csproj.CoreCompileInputs.cache
+D:\HOCTAP\LAP_TRINH_WEB\PTB2_Solution\PTB2_Library\obj\Debug\PTB2_Library.dll
+D:\HOCTAP\LAP_TRINH_WEB\PTB2_Solution\PTB2_Library\obj\Debug\PTB2_Library.pdb
